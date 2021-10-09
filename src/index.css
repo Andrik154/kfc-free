@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  position:relative;
+  padding-bottom:2.5rem;
+  min-height: 100vh;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  height:2.5rem;
+  width:100%;
+}
+
+button.btn-link{
+  border: none;
+  background-color: transparent;
+}
+
+@media (min-width: 0px) {
+  .foodcard{
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .foodcard{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .foodcard{
+    width:48%;
+  }
+}
+
+@media (min-width: 992px) {
+  .foodcard{
+    width:23%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .foodcard{
+    width:23%;
+  }
+}
+
+@media (min-width: 1400px) {}

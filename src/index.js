@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Router } from 'wouter';
+
+window.city = JSON.parse(localStorage.getItem('city')) || {title:'Москва', id:'74013271'};
+window.CDN_PREFIX = 'https://s82079.cdn.ngenix.net/';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router base="/kfc">
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
