@@ -28,7 +28,7 @@ function Table(props){
                       {item.epRatio}
                     </td>
                     <td>
-                      {item.price/100}
+                      {(item.price/100).toFixed(2)}₽
                     </td>
                   </tr>
                 )

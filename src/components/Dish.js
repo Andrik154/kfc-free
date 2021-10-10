@@ -13,7 +13,7 @@ function Dish(params){
         <div className="col-12 col-md-6">
           <h5>Описание товара:</h5>
           <p>{dish.descr}</p>
-          <p><strong>Масса/Объем:</strong> {dish.m} {dish.mm}.</p>
+          <p><strong>Масса/Объем:</strong> {dish.m} {dish.mm}</p>
           <h5>КБЖУ (рассчитано)</h5> 
           <table className="table table-bordered w-50">
             <thead>
